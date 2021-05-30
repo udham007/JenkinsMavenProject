@@ -15,7 +15,7 @@ public class SampleSeleniumTest {
 	
 	@BeforeClass
 	public void startBrowser() {
-		System.setProperty("webdriver.chrome.driver", "C:\Program Files\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Program Files\\chromedriver.exe");
 		ChromeOptions chromeOptions = new ChromeOptions();
 		chromeOptions.addArguments("--start-maximized");
 		driver = new ChromeDriver(chromeOptions);

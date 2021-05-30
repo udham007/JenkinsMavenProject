@@ -57,7 +57,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class NewTest {
+public class SampleSeleniumTest {
 
      boolean flag = true;
     public WebDriver driver;
